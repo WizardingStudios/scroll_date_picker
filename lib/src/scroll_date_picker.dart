@@ -254,6 +254,7 @@ class _ScrollDatePickerState extends State<ScrollDatePicker> {
               Expanded(
                 child: Container(
                   decoration: BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(50.0)),
                     gradient: LinearGradient(
                       begin: Alignment.topCenter,
                       end: Alignment.bottomCenter,
