@@ -57,12 +57,27 @@ const List<String> deDeMonth = [
   'November',
   'Dezember'
 ];
+const List<String> itItMonth = [
+  'Gennaio',
+  'Febbraio',
+  'Marzo',
+  'Aprile',
+  'Maggio',
+  'Giugno',
+  'Luglio',
+  'Agosto',
+  'Settembre',
+  'Ottobre',
+  'Novembre',
+  'Dicembre'
+];
 
 enum DatePickerLocale {
   enUS,
   koKR,
   frFR,
   deDE,
+  itIT,
 }
 
 extension DatePickerLocaleExtension on DatePickerLocale {
@@ -74,6 +89,8 @@ extension DatePickerLocaleExtension on DatePickerLocale {
         return frFrMonth;
       case DatePickerLocale.deDE:
         return deDeMonth;
+        case DatePickerLocale.itIT:
+        return itItMonth;
       default:
         return enUsMonth;
     }
