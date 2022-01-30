@@ -261,7 +261,7 @@ class _ScrollDatePickerState extends State<ScrollDatePicker> {
                         Theme.of(context).scaffoldBackgroundColor,
                         Theme.of(context)
                             .scaffoldBackgroundColor
-                            .withOpacity(0.7),
+                            .withOpacity(0.0),
                       ],
                     ),
                   ),
@@ -271,7 +271,7 @@ class _ScrollDatePickerState extends State<ScrollDatePicker> {
                   Container(
                     height: widget.options.itemExtent,
                     decoration: BoxDecoration(
-                      color: Colors.grey.withOpacity(0.15),
+                      color: Colors.yellow.withOpacity(0.75),
                       borderRadius: const BorderRadius.all(Radius.circular(4)),
                     ),
                   ),
@@ -284,7 +284,7 @@ class _ScrollDatePickerState extends State<ScrollDatePicker> {
                       colors: [
                         Theme.of(context)
                             .scaffoldBackgroundColor
-                            .withOpacity(0.7),
+                            .withOpacity(0.0),
                         Theme.of(context).scaffoldBackgroundColor,
                       ],
                     ),
