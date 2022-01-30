@@ -260,7 +260,7 @@ class _ScrollDatePickerState extends State<ScrollDatePicker> {
                   Container(
                     height: widget.options.itemExtent,
                     decoration: BoxDecoration(
-                      color: Colors.yellow.withOpacity(0.25),
+                      color: Colors.yellow.withOpacity(0.50),
                       borderRadius: const BorderRadius.all(Radius.circular(4)),
                     ),
                   ),
